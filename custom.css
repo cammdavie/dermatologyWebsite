@@ -2,8 +2,10 @@ body{
 
     font-family: 'Montserrat';
     font-weight: 300;
+    background: linear-gradient(#f9aa89, white, white, white);
 
 }
+
 /*
 -----------------------------------------------------------
             Bootstrap Overrides
@@ -11,15 +13,20 @@ body{
 
 */
 
+a {
+    color: #f9aa89;
+}
+
 .navbar-default{
     background-color: #FFF;
-    color: #E4855D;
+    color: #f9aa89;
     border: 0;
+    border-radius:0;
 }
 
 .navbar.navbar-default .navbar-collapse {
     background-color: #FFF;
-    color: #E4855D;
+    color: #f9aa89;
     border: 0;
 }
 
@@ -27,14 +34,14 @@ body{
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     background-color: #FFF;
-    color: #E4855D;
+    color: #f9aa89;
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: #FFF;
-    background: #E4855D;
+    background: #f9aa89;
 }
 
 /* 3 bars */
@@ -42,14 +49,14 @@ body{
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover .icon-bar {
-    background-color: #E4855D;
+    background-color: #f9aa89;
 }
 
 
 /* background */
 .navbar-default .navbar-toggle {
-border-color: #E4855D;
-background-color: #E4855D;
+border-color: #f9aa89;
+background-color: #f9aa89;
 }
 
 .navbar-default .navbar-toggle:hover {
@@ -121,7 +128,7 @@ background-color: #E4855D;
 /* Black buttons with extra padding and without rounded borders */
 .btn {
     padding: 10px 20px;
-    background-color: #E4855D;
+    background-color: #f9aa89;
     color: #fff;
     border-radius: 0;
     transition: .2s;
@@ -129,7 +136,27 @@ background-color: #E4855D;
 
 /* On hover, the color of .btn will transition to white with black text */
 .btn:hover, .btn:focus {
-    border: 1px solid #E4855D;
+    border: 1px solid #f9aa89;
     background-color: #fff;
-    color: #E4855D;
+    color: #f9aa89;
+}
+
+.fb:hover, .fb:active{
+    color:#3b5998;
+}
+
+.twttr:hover, .twttr:active{
+    color:#00aced;
+}
+
+.linkd:hover, .linkd:active{
+    color:#0077b5; 
+}
+
+.yt:hover, .yt:active{
+    color:#e52d27;
+}
+
+.blog:hover, .blog:active{
+    color:#fb8f3d;
 }
