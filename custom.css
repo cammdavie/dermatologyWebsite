@@ -2,7 +2,7 @@ body{
 
     font-family: 'Montserrat';
     font-weight: 300;
-    background: linear-gradient(#f9aa89, white, white, white);
+    background: linear-gradient(#f9aa89,#f9aa89);
 
 }
 
@@ -14,6 +14,10 @@ body{
 */
 
 a {
+    color: #f9aa89;
+}
+
+a:hover {
     color: #f9aa89;
 }
 
